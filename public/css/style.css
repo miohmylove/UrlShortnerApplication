@@ -1,0 +1,34 @@
+.logo {
+    max-width: 150px;
+    max-height: 200px;
+}
+
+.mt-n150 {
+    margin-top: -150px;
+}
+
+.mt-250 {
+    margin-top: 250px !important;
+}
+
+.bg-brown-lighten-4 {
+    background-color: #bdbdbd;
+}
+
+.to-top {
+	position: fixed;
+    top: 0;
+    z-index: 1030;
+}
+
+.to-right {
+	right: 0;
+}
+
+.mr-110 {
+    margin-right: 110px !important;
+}
+
+.col-md-2n5 {
+    max-width: 20%;
+}
