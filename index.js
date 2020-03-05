@@ -10,6 +10,8 @@ const cookieParser = require('cookie-parser')
 const cookieSession = require('cookie-session')
 const Url = require('./class/Url')
 
+const PORT = config.PORT;
+
 var app = express()
 // set the view engine for the app
 app.set('view engine', 'pug')
@@ -130,6 +132,6 @@ app.get('/:shortUrl', async (req, res) => {
 })
 
 
-app.listen(3000, () => {
-    console.log('App listening on port 3000....')
+app.listen(PORT, () => {
+    console.log(`App listening on port ${PORT}....`)
 });
